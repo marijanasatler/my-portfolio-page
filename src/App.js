@@ -1,27 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Route, Switch, HashRouter} from 'react-router-dom';
+import Header from './components/header-components/header';
+import HomePage from './pages/homepage';
+import HomePageEn from './pages/homepage-en';
 
-function App() {
+class App extends React.Component{
+  render(){
   return (
+    <HashRouter basename='/'>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h1>portfolio app</h1>
-      </header>
+  <Header />
+    <Switch>
+          <Route exact path='/' component={HomePageEn}/>
+          <Route  path='/sr' component={HomePage}/>
+        </Switch>
+        <div className="icon-footer" >Icons provide by:<a className="icon-footer" href="https://icons8.com/" target="blanck">  icons8.com</a> </div>
     </div>
+    </HashRouter>
   );
+ }
 }
 
 export default App;
