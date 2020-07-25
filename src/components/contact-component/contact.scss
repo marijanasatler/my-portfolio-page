@@ -1,6 +1,20 @@
 .contact-cont{
     color: white;
     filter: drop-shadow(16px 16px 20px rgba(205, 208, 210, 0.8)) ;
-  
+  a{
+      color: white;
+  }
    
-}
+}  
+@media screen and (max-width: 650px) {
+ .contact-cont{
+     
+     font-size: larger;
+     h1{
+         font-size: xx-large;
+     }
+     a{
+         color: white;
+     }
+ }
+ }

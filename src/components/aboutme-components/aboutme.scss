@@ -24,3 +24,17 @@ filter: drop-shadow(16px 16px 20px rgba(205, 208, 210, 0.8)) ;
  text-align: left;
  filter: drop-shadow(26px 26px 16px rgba(205, 208, 210, 0.8)) ;
    }
+
+
+   @media screen and (max-width: 650px) {
+ .abm-cont{
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+ }
+ .im-pro{
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+ }
+  }

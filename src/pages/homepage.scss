@@ -105,3 +105,21 @@ background-color:transparent;
  margin-left: 40%;
  margin-right: 40%;
  }
+
+
+ @media screen and (max-width: 650px) {
+  .navbar{
+    width: 100vw;
+ 
+  }
+
+   .element{ font-size: large;
+  
+  }
+  .navbar ul li {
+    font-size: medium;
+  }
+  .to-top{
+    font-size: large;
+  }
+}

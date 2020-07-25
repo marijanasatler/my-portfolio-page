@@ -15,15 +15,14 @@ padding-bottom: 1%;
  
 .project{
 margin: 2%;
-margin-left:45px;
-margin-right: 45px;
+
 color: white;
     
 .background-image {
-width:200px;
-height: 200px;
+width:160px;
+height: 160px;
 cursor: pointer;
-transition: all 1s;
+
 overflow: hidden;
 border-bottom: solid white 1px;
 border-right: solid white 1px;        
@@ -77,3 +76,29 @@ font-size: 30px;
   li {
     font-size: 3.5em;
   }}
+
+  
+
+ 
+  
+  @media screen and (max-width: 14000px) {
+    .project-list{
+    .project{
+    .background-image{
+      width: 170px;
+      height: 170px;
+    }}}
+  }
+
+  @media screen and (max-width: 650px) {
+    .project-list{
+   
+ .project{
+font-size: small;
+   align-items: center;
+ .background-image{
+   width: 100px;
+   height: 100px;
+   margin: 2vw;
+ }
+ }}}

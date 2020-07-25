@@ -13,12 +13,16 @@
     margin-right: 30px;
     justify-content: flex-end;
     cursor: pointer;
+    outline: none;
+   
              
 .buttn-ico{
  border: white;
  background-color:transparent;
  cursor: pointer;
  box-shadow: 3px 3px 12px 0px rgba(240, 240, 240, 0.564);
+ outline: none;
+   
  }
 }
 
@@ -27,3 +31,10 @@
     margin-left: 20px;
 }
 }
+
+
+@media screen and (max-width: 650px) {
+ .header-container{
+width: 100vw;
+ }
+  }

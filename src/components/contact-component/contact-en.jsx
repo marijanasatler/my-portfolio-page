@@ -6,8 +6,8 @@ const ContactEn =()=>(
 <div>
  <div className='contact-cont'><h2>
     If you want to contact me you can send me an email at
- <h1>
-  marijanasatler@gmail.com
+ <h1><a href="mailto:marijanasatler@gmail.com">
+  marijanasatler@gmail.com</a>
  </h1>
   </h2>
  <h1>
