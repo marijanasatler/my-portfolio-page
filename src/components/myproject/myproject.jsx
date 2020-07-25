@@ -34,10 +34,10 @@ const MyProject =()=>(
              </span>
              </div>
              <div className='project'>
-              <a href='https://electronic-business-card.herokuapp.com/' target='blanck'>
+              <a href='https://marijanasatler.github.io/electronic-business-card/' target='blanck'>
              <img className='background-image'   src={require('./picture/logo4.png')} alt='ja' /> 
              </a>   
-             <h4><a href='https://electronic-business-card.herokuapp.com/' target='blanck'>Elektronska vizit karta</a></h4>
+             <h4><a href='https://marijanasatler.github.io/electronic-business-card/' target='blanck'>Elektronska vizit karta</a></h4>
              <span>
              &#8679;click&#8679;
              </span>
